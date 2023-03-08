@@ -18,7 +18,7 @@ def fizzbuzz(i:int):
       return i
 
 result = ""
-for myNumber in range(32):
+for myNumber in range(2, 33):
   result = str(result) + str(fizzbuzz(myNumber)) + "\n"
 
 print(result)
