@@ -14,7 +14,7 @@ def fizzbuzz(i:int):
       return "Fizz"
   if i % 5 == 0:
       return "Buzz"
-    return i
+  return i
 
 result = ""
 for myNumber in range(2, 33):
