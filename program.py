@@ -7,18 +7,17 @@
 # End at 32
 # I watced the extra video
 
-def fizzbuzz(i:int):
-  if i % 15 == 0:
+def fizzbuzz(x:int):
+  if x % 15 == 0:
       return "FizzBuzz"
-  elif i % 3 == 0:
+  if x % 3 == 0:
       return "Fizz"
-  elif i % 5 == 0:
+  if x % 5 == 0:
       return "Buzz"
-  else:
-      return i
+  return x
 
 result = ""
-for myNumber in range(2, 33):
+for myNumber in range(1, 33):
   result = str(result) + str(fizzbuzz(myNumber)) + "\n"
 
 print(result)
