@@ -10,11 +10,12 @@
 def fizzbuzz(i:int):
   if i % 15 == 0:
       return "FizzBuzz"
-  if i % 3 == 0:
+  elif i % 3 == 0:
       return "Fizz"
-  if i % 5 == 0:
+  elif i % 5 == 0:
       return "Buzz"
-  return i
+  else:
+      return i
 
 result = ""
 for myNumber in range(2, 33):
